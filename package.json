@@ -1,0 +1,20 @@
+{
+  "name": "is117005-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "An evidence-led IS117005 research portfolio on careers in AI technology.",
+  "scripts": {
+    "docs:dev": "vitepress docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs",
+    "check:links": "node scripts/check-links.mjs",
+    "check": "npm run docs:build && npm run check:links"
+  },
+  "devDependencies": {
+    "vitepress": "1.6.4"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
