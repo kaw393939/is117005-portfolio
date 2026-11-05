@@ -1,0 +1,171 @@
+[
+  {
+    "id": "palantir-fde-intern-commercial-nyc",
+    "employer": "Palantir Technologies",
+    "title": "Forward Deployed Software Engineer, Internship - Commercial",
+    "family": "Forward deployed engineering",
+    "level": "Internship",
+    "levelBasis": "Employer explicitly labels the title and commitment Internship.",
+    "location": "New York, NY",
+    "state": "NY",
+    "workMode": "On-site; 25–50% travel depending on team and location",
+    "summary": "Build customer-specific applications, LLM workflows, and production software; work with engineering teams and customer stakeholders from problem discovery through deployment.",
+    "requirements": [
+      "Must graduate in December 2027 or Spring 2028.",
+      "Engineering degree; preferred subject areas include computer science, mathematics, software engineering, physics, and data science.",
+      "Proficiency in a programming language such as Python, Java, C++, or TypeScript/JavaScript."
+    ],
+    "url": "https://jobs.lever.co/palantir/4d29249a-d7e8-4c39-880d-3b35d7b2f6f6",
+    "jobId": "4d29249a-d7e8-4c39-880d-3b35d7b2f6f6",
+    "status": "Primary description and Apply link visible through web open; no closing date shown. Exact internship year is not in title.",
+    "checkedDate": "2026-11-05"
+  },
+  {
+    "id": "ice-ai-software-intern-2027-nyc",
+    "employer": "Intercontinental Exchange (ICE)",
+    "title": "Summer Internship Program 2027 - Software Engineering Intern",
+    "family": "AI software engineering",
+    "level": "Internship",
+    "levelBasis": "Employer explicitly identifies a 2027 internship program.",
+    "location": "New York, NY — 11 Wall Street",
+    "state": "NY",
+    "workMode": "In-office, five days weekly throughout one complete program session",
+    "summary": "Develop AI platform features, MCP integrations, agent workflows, Java/Spring services, and React/TypeScript interfaces; contribute to authorization design and technical documentation.",
+    "requirements": [
+      "Enrolled at an accredited university and at least advancing to junior year.",
+      "Java/Spring and API familiarity; React/TypeScript proficiency; AI/LLM interest or experience.",
+      "Available May 24–August 6 or June 7–August 20, 2027; alternate dates or partial attendance not accommodated."
+    ],
+    "url": "https://careers.ice.com/jobs/14105?lang=en-us",
+    "jobId": "14105",
+    "status": "Primary employer search result contains complete 2027 description; direct web open returned 403, requiring browser verification.",
+    "checkedDate": "2026-11-05"
+  },
+  {
+    "id": "regeneron-ai-ml-data-intern-2027",
+    "employer": "Regeneron",
+    "title": "2027 Summer Intern AI/ML & Data Engineering",
+    "family": "Applied AI, machine learning and data engineering",
+    "level": "Internship",
+    "levelBasis": "Employer explicitly identifies multiple 2027 summer internships.",
+    "location": "Warren, NJ; Tarrytown, Sleepy Hollow and Armonk, NY; also Cambridge, MA",
+    "state": "NY/NJ",
+    "workMode": "Most placements on-site; some hybrid; location and placement vary",
+    "summary": "Build and evaluate AI agents, LLM applications, NLP tools, data pipelines, and workflow automation with scientific and business teams.",
+    "requirements": [
+      "Enrolled or accepted into an undergraduate or graduate program; returning to school afterward or graduating after the placement.",
+      "Python, SQL, and software foundations typically expected; some projects better suited to master's students.",
+      "Full-time May/June–August; GPA 3.0 or higher preferred, not stated as mandatory."
+    ],
+    "url": "https://regeneron.wd1.myworkdayjobs.com/Careers/job/TARRYTOWN/XMLNAME-2027-Summer-Intern-AI-ML---Data-Engineering_R52560-1",
+    "jobId": "R52560",
+    "status": "Employer job API returns this exact externalUrl, matching description and canApply=true; posted October 28, 2026. Browser verification pending.",
+    "checkedDate": "2026-11-05"
+  },
+  {
+    "id": "provectus-associate-fde-ny-nj",
+    "employer": "Provectus",
+    "title": "Associate Forward Deployed Engineer",
+    "family": "Forward deployed and applied AI engineering",
+    "level": "Entry",
+    "levelBasis": "Employer explicitly calls the role early-career and requests 0–2 years; internships, co-ops and research count.",
+    "location": "New York / New Jersey headline; requires New York office attendance",
+    "state": "NY/NJ",
+    "workMode": "Hybrid; three days each week in the New York office",
+    "summary": "Work alongside a senior FDE to understand client workflows, ship LLM applications and retrieval pipelines, build evaluation harnesses, and deploy on AWS.",
+    "requirements": [
+      "STEM degree and 0–2 years of experience.",
+      "AI-integrated projects to discuss, Claude Code basics, and Python or TypeScript fundamentals.",
+      "Technical hiring task followed by a discussion during which LLM use is prohibited."
+    ],
+    "url": "https://jobs.lever.co/provectus/62394851-693e-47fe-a86c-f8d9acf43ec2",
+    "jobId": "62394851-693e-47fe-a86c-f8d9acf43ec2",
+    "status": "Primary description and Apply for this job link visible through web open; no closing date shown.",
+    "checkedDate": "2026-11-05"
+  },
+  {
+    "id": "campbells-it-intern-2027-camden",
+    "employer": "The Campbell's Company",
+    "title": "Information Technology Internship Program - Summer 2027",
+    "family": "IT, AI automation and cybersecurity pathways",
+    "level": "Internship",
+    "levelBasis": "Employer explicitly identifies a 12-week IT internship and Intern position type.",
+    "location": "Camden, NJ",
+    "state": "NJ",
+    "workMode": "Camden headquarters; select remote opportunities available",
+    "summary": "Complete a technology project with business teams and present it to IT leadership. Potential placements include AI/automation, security, cloud, software, data, and infrastructure; AI assignment is not guaranteed.",
+    "requirements": [
+      "Pursuing a bachelor's or master's degree in a relevant computing, engineering, data, or related subject.",
+      "Minimum cumulative GPA 3.0.",
+      "Analytical and communication skills, teamwork, initiative, and Microsoft Office proficiency."
+    ],
+    "url": "https://careers.thecampbellscompany.com/information-technology-internship-program-summer-2027/job/7A9D54DDDFAD582AB3C862CB6756EF81",
+    "jobId": "Req-68193",
+    "status": "Primary 2027 description and Apply Now links visible through web open; no closing date shown.",
+    "checkedDate": "2026-11-05"
+  },
+  {
+    "id": "iat-system-administrator-intern-2027-newark",
+    "employer": "IAT Insurance Group",
+    "title": "System Administrator Internship",
+    "family": "IT operations and automation",
+    "level": "Internship",
+    "levelBasis": "Employer explicitly identifies a summer 2027 internship and says professional experience is not required.",
+    "location": "Newark, NJ",
+    "state": "NJ",
+    "workMode": "Hybrid; Monday–Wednesday office, optional remote Thursday–Friday",
+    "summary": "Support system and cloud administration, monitoring, disaster recovery, Power Automate workflows, PowerShell, documentation, and operational reporting. This is an adjacent IT pathway rather than a dedicated AI role.",
+    "requirements": [
+      "Rising undergraduate sophomore, junior, or senior studying a relevant technical subject.",
+      "Complete May 24–July 30, 2027; no housing or relocation assistance.",
+      "US work authorization without present or future visa sponsorship.",
+      "Basic Windows, networking, cloud, and information security knowledge."
+    ],
+    "url": "https://iatinsurancegroup.wd1.myworkdayjobs.com/iat/job/Newark-NJ/System-Administrator-Internship_JR100415",
+    "jobId": "JR100415",
+    "status": "Employer job API returns this exact externalUrl, matching description and canApply=true; posted September 1, 2026. Browser verification pending.",
+    "checkedDate": "2026-11-05"
+  },
+  {
+    "id": "avis-ai-enablement-intern-2027-parsippany",
+    "employer": "Avis Budget Group",
+    "title": "Accelerate - AI Enablement Intern Summer 2027",
+    "family": "AI enablement and business operations",
+    "level": "Internship",
+    "levelBasis": "Employer explicitly identifies a summer 2027 AI Enablement internship; prior experience is still requested.",
+    "location": "379 Interpace Parkway, Parsippany, NJ",
+    "state": "NJ",
+    "workMode": "Parsippany location listed; remote/hybrid arrangement not specified",
+    "summary": "Identify AI adoption opportunities, translate business needs into AI workflows, coordinate implementation across teams, and help employees understand and use emerging AI tools.",
+    "requirements": [
+      "Currently pursuing a bachelor's degree in computer science, computer engineering, or related field; master's candidates preferred.",
+      "Prior internship or professional experience in business, technology, or a related field.",
+      "AI tool familiarity, communication, coordination, and independent project management."
+    ],
+    "url": "https://avisbudget.wd1.myworkdayjobs.com/ABG_Careers/job/379-Interpace-Pkwy-Parsippany-07054/Accelerate---AI-Enablement-Intern-Summer-2027_R0190563",
+    "jobId": "R0190563",
+    "status": "Employer job API returns this exact externalUrl, matching description and canApply=true; posted November 3, 2026. Browser verification pending.",
+    "checkedDate": "2026-11-05"
+  },
+  {
+    "id": "palantir-security-engineer-intern-nyc",
+    "employer": "Palantir Technologies",
+    "title": "Information Security Engineer, Internship",
+    "family": "Security engineering at an AI platform company",
+    "level": "Internship",
+    "levelBasis": "Employer explicitly identifies the role as Internship; this is general security engineering, not specifically AI model security.",
+    "location": "New York, NY",
+    "state": "NY",
+    "workMode": "Hybrid",
+    "summary": "Own security improvement projects, collaborate with internal teams and customers, and help protect Palantir systems and customer information.",
+    "requirements": [
+      "Must plan to graduate in 2028; this should be the final internship before graduation.",
+      "Engineering background and programming experience.",
+      "Eligibility and willingness to obtain a US security clearance."
+    ],
+    "url": "https://jobs.lever.co/palantir/ef725594-42dd-4f0d-ba8e-df8179dbc6cb",
+    "jobId": "ef725594-42dd-4f0d-ba8e-df8179dbc6cb",
+    "status": "Primary description and Apply link visible through web open; no closing date or internship year in title.",
+    "checkedDate": "2026-11-05"
+  }
+]

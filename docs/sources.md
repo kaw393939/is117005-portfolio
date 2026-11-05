@@ -32,6 +32,12 @@ The 3% all-occupation comparison appears in these BLS profiles. Forecasts can be
 - **NIST**, [AI Risk Management Framework](https://www.nist.gov/itl/ai-risk-management-framework), framework 1.0 released January 26, 2023. Used for governance responsibilities; voluntary guidance does not establish hiring demand.
 - **NIST**, [*Adversarial Machine Learning: A Taxonomy and Terminology of Attacks and Mitigations*](https://www.nist.gov/publications/adversarial-machine-learning-taxonomy-and-terminology-attacks-and-mitigations-0), March 24, 2025, NIST AI 100-2e2025. Used for AI-security concepts, not employment forecasts.
 
+## Employer postings and earlier research
+
+The [NY/NJ source ledger](/job-sources) records 26 selected employer postings checked November 5, 2026, including the exact source URLs, requisition IDs, and browser-verification limits. The [job explorer](/jobs) supplies responsibilities and requirements; the [local findings](/local-findings) interpret the sample. These records are separate from occupational growth forecasts.
+
+The [review of the existing AI Career Atlas](/existing-research) is pinned to the repository commit that was inspected. Its previously recorded job statuses were not treated as a fresh verification.
+
 ## Editorial synthesis
 
-Suggested skills, routes, and portfolio projects are educational recommendations built from this research. They are not guaranteed hiring requirements. No live job-posting sample or local-market analysis was conducted. See the [methodology](/methodology) for the project's research rules.
+Suggested skills, routes, and portfolio projects are educational recommendations built from this research. They are not guaranteed hiring requirements. The local posting sample illustrates opportunities and barriers; it does not measure local vacancy totals, growth, or hiring probabilities. See the [methodology](/methodology) for the project's research rules.

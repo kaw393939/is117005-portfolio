@@ -2,6 +2,7 @@
 import { computed, ref } from 'vue'
 import { withBase } from 'vitepress'
 import { careers } from '../../data/careers'
+import jobs from '../../data/jobs.json'
 
 const categories = ['All careers', 'Build', 'Data', 'Trust', 'Strategy']
 const category = ref('All careers')
@@ -21,8 +22,8 @@ const measured = [...careers].filter(career => career.growth !== null).sort((a, 
         <h1 id="guide-title">The future of work.<br><em>Your place in AI.</em></h1>
         <p class="hero-description">New titles. Evolving skills. More ways in.<br>A field guide to the people building, running, and making sense of artificial intelligence.</p>
         <div class="hero-actions">
-          <a class="primary-action" href="#explore">Find your direction <span aria-hidden="true">↗</span></a>
-          <a class="text-action" :href="withBase('/research.html')">Follow the evidence <span aria-hidden="true">→</span></a>
+          <a class="primary-action" :href="withBase('/jobs.html')">Explore NY / NJ jobs <span aria-hidden="true">↗</span></a>
+          <a class="text-action" href="#explore">Find your direction <span aria-hidden="true">→</span></a>
         </div>
         <div class="hero-footnote"><span>RESEARCH, WITH CONTEXT.</span> Real sources. Clear distinctions. Practical next steps.</div>
       </div>
@@ -47,10 +48,15 @@ const measured = [...careers].filter(career => career.growth !== null).sort((a, 
     </section>
 
     <div class="research-strip">
-      <p><strong>Not every AI career starts with a model.</strong><br>Explore software, infrastructure, security, data, and product work.</p>
+      <p><strong>{{ jobs.length }} real postings. 14 employers. New York & New Jersey.</strong><br>Internship · Entry level · Mid level · Senior · Primary employer evidence checked in Chrome.</p>
       <div class="strip-meta"><span>LAST REVIEWED</span><strong>05 NOV 2026</strong></div>
-      <a :href="withBase('/methodology.html')">How we research <span aria-hidden="true">↗</span></a>
+      <a :href="withBase('/local-findings.html')">Read the local findings <span aria-hidden="true">↗</span></a>
     </div>
+
+    <section class="local-research" aria-labelledby="local-heading">
+      <div><p class="eyebrow">NEW / FROM REAL EMPLOYER DESCRIPTIONS</p><h2 id="local-heading">AI work, beyond the obvious.</h2><p>FDEs who ship with customers. Red teams that test agents. IT teams that automate operations. Explore the titles, responsibilities, and experience requirements in our local sample.</p></div>
+      <div class="local-research-links"><a :href="withBase('/jobs.html')">Browse the NY / NJ job sample <span aria-hidden="true">↗</span></a><a :href="withBase('/title-map.html')">Understand eight families of AI work <span aria-hidden="true">↗</span></a><a :href="withBase('/existing-research.html')">What we learned from the earlier Atlas <span aria-hidden="true">↗</span></a></div>
+    </section>
 
     <section id="explore" class="explore-section" aria-labelledby="explore-heading">
       <div class="section-heading">

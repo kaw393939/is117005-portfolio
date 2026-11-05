@@ -16,17 +16,30 @@ export default defineConfig({
     logo: '/favicon.svg',
     siteTitle: 'AI Career Field Guide',
     nav: [
-      { text: 'Explore careers', link: '/careers' },
-      { text: 'The research', link: '/research' },
-      { text: 'Build your path', link: '/pathways' }
+      { text: 'NY / NJ jobs', link: '/jobs' },
+      { text: 'Job titles', link: '/title-map' },
+      { text: 'Research', items: [
+        { text: 'Local findings', link: '/local-findings' },
+        { text: 'Growth & BLS evidence', link: '/research' },
+        { text: 'Learning from the existing Atlas', link: '/existing-research' },
+        { text: 'Methodology', link: '/methodology' }
+      ] },
+      { text: 'Learning paths', link: '/pathways' }
     ],
     sidebar: [
+      { text: 'NY / NJ EMPLOYER RESEARCH', items: [
+        { text: 'Real jobs · all experience levels', link: '/jobs' },
+        { text: 'What the local sample shows', link: '/local-findings' },
+        { text: 'Emerging AI title map', link: '/title-map' },
+        { text: 'Employer source ledger', link: '/job-sources' }
+      ] },
       { text: 'THE FIELD GUIDE', items: [
         { text: 'Career profiles', link: '/careers' },
         { text: 'Growth & evidence', link: '/research' },
         { text: 'Learning pathways', link: '/pathways' }
       ] },
       { text: 'THE RESEARCH DESK', items: [
+        { text: 'Learning from the existing Atlas', link: '/existing-research' },
         { text: 'Methodology', link: '/methodology' },
         { text: 'Sources & references', link: '/sources' }
       ] }
