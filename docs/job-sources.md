@@ -16,7 +16,7 @@ Use the [filterable explorer](/jobs) for responsibilities, required experience, 
 | Avis Budget Group · Accelerate - AI Enablement Intern Summer 2027 | Internship | 379 Interpace Parkway, Parsippany, NJ | [R0190563](https://avisbudget.wd1.myworkdayjobs.com/ABG_Careers/job/379-Interpace-Pkwy-Parsippany-07054/Accelerate---AI-Enablement-Intern-Summer-2027_R0190563) | Description + Apply control |
 | IAT Insurance Group · System Administrator Internship | Internship | Newark, NJ | [JR100415](https://iatinsurancegroup.wd1.myworkdayjobs.com/iat/job/Newark-NJ/System-Administrator-Internship_JR100415) | Description + Apply control |
 | Intercontinental Exchange (ICE) · Summer Internship Program 2027 - Software Engineering Intern | Internship | New York, NY — 11 Wall Street | [14105](https://careers.ice.com/jobs/14105?lang=en-us) | Description + Apply control |
-| Palantir Technologies · Forward Deployed Software Engineer, Internship - Commercial | Internship | New York, NY | [4d29249a-d7e8-4c39-880d-3b35d7b2f6f6](https://jobs.lever.co/palantir/4d29249a-d7e8-4c39-880d-3b35d7b2f6f6) | Description + Apply control |
+| Palantir Technologies · Forward Deployed Software Engineer, Internship - Commercial | Internship | New York, NY | [4d29249a-d7e8-4c39-880d-3b35d7b2f6f6](https://jobs.lever.co/palantir/4d29249a-d7e8-4c39-880d-3b35d7b2f6f6) | November 14 recheck: description inaccessible; application readable but refers to summer 2026. Current season/eligibility unconfirmed. |
 | Palantir Technologies · Information Security Engineer, Internship | Internship | New York, NY | [ef725594-42dd-4f0d-ba8e-df8179dbc6cb](https://jobs.lever.co/palantir/ef725594-42dd-4f0d-ba8e-df8179dbc6cb) | Description + Apply control |
 | Regeneron · 2027 Summer Intern AI/ML & Data Engineering | Internship | Warren, NJ; Tarrytown, Sleepy Hollow and Armonk, NY; also Cambridge, MA | [R52560](https://regeneron.wd1.myworkdayjobs.com/Careers/job/TARRYTOWN/XMLNAME-2027-Summer-Intern-AI-ML---Data-Engineering_R52560-1) | Description + Apply control |
 | The Campbell's Company · Information Technology Internship Program - Summer 2027 | Internship | Camden, NJ | [Req-68193](https://careers.thecampbellscompany.com/information-technology-internship-program-summer-2027/job/7A9D54DDDFAD582AB3C862CB6756EF81) | Description + Apply control |
@@ -49,3 +49,6 @@ Use the [filterable explorer](/jobs) for responsibilities, required experience, 
 - Workday links were corrected to the employer's actual location-bearing job URLs. A search snippet's shortened URL was insufficient for several records.
 
 The discovery files in the repository preserve candidate notes. The reviewed dataset drives this ledger and the job explorer. See the [methodology](/methodology) for classification rules and sampling limits.
+
+
+**Palantir recheck, November 14, 2026:** The NYC application form is readable but still asks about summer 2026; the full description could not be retrieved (403). Current season, availability, pay and graduation eligibility are unconfirmed. Do not transfer terms from another Palantir requisition.
