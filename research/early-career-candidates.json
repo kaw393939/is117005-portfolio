@@ -8,17 +8,17 @@
     "levelBasis": "Employer explicitly labels the title and commitment Internship.",
     "location": "New York, NY",
     "state": "NY",
-    "workMode": "On-site; 25–50% travel depending on team and location",
-    "summary": "Build customer-specific applications, LLM workflows, and production software; work with engineering teams and customer stakeholders from problem discovery through deployment.",
+    "workMode": "On-site; travel requirements unconfirmed",
+    "summary": "NYC commercial forward-deployed software engineering internship lead. Current description and recruiting season require confirmation; do not treat as a verified current opening.",
     "requirements": [
-      "Must graduate in December 2027 or Spring 2028.",
-      "Engineering degree; preferred subject areas include computer science, mathematics, software engineering, physics, and data science.",
-      "Proficiency in a programming language such as Python, Java, C++, or TypeScript/JavaScript."
+      "Graduation eligibility, degree requirements and programming requirements withheld pending employer confirmation."
     ],
     "url": "https://jobs.lever.co/palantir/4d29249a-d7e8-4c39-880d-3b35d7b2f6f6",
     "jobId": "4d29249a-d7e8-4c39-880d-3b35d7b2f6f6",
-    "status": "Primary description and Apply link visible through web open; no closing date shown. Exact internship year is not in title.",
-    "checkedDate": "2026-11-05"
+    "status": "Current season and availability unconfirmed",
+    "checkedDate": "2026-11-14",
+    "verificationNote": "Web recheck: description returned 403; application readable and identifies NYC/on-site, but still asks about summer 2026. Earlier November 5 review is historical, not a current confirmation.",
+    "evidenceNote": "Pay and graduation eligibility must not be copied from another Palantir requisition."
   },
   {
     "id": "ice-ai-software-intern-2027-nyc",
