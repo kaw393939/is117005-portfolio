@@ -34,7 +34,8 @@ export default defineConfig({
         { text: 'Employment projections', link: '/research' }
       ] },
       { text: 'Plan next steps', items: [
-        { text: 'Learning projects', link: '/pathways' }
+        { text: 'Learning projects', link: '/pathways' },
+        { text: 'Consulting portfolio plan', link: '/consulting-portfolio-plan' }
       ] },
       { text: 'Check the evidence', collapsed: false, items: [
         { text: 'Employer sources', link: '/job-sources' },

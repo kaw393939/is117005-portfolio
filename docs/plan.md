@@ -7,6 +7,10 @@ description: Turn career research into a small, evidence-linked plan before buil
 
 Copy this structure into your own notes or repository. **This is a template, not a completed personal plan or a new course deadline.** Start with evidence; choose a small next step before coding.
 
+## Worked example: consulting portfolio
+
+See [Keith’s consulting portfolio plan](/consulting-portfolio-plan) for an evidence-based brief, user stories, acceptance criteria and delivery plan. It plans a separate public portfolio; this site remains a research notebook.
+
 ## 1. Define the question
 
 - **Goal:** What decision am I trying to make?
