@@ -8,19 +8,22 @@ outline: false
 import JobExplorer from './.vitepress/theme/components/JobExplorer.vue'
 </script>
 
-# Real jobs. Local context.
+# NY/NJ job sample
 
-**New York & New Jersey · Reviewed November 5, 2026**
+**26 postings · 14 employers · Evidence reviewed November 5, 2026**
 
-Explore **26 real employer postings across 14 employers**: **7 internships, 2 entry-level, 3 mid-level, and 14 senior** examples. The sample spans FDE and deployment, AI software and data, security and governance, IT and automation, infrastructure, and product delivery. Levels follow employer requirements; inferred classifications are explained in each record.
+Filter first, then open a record's **Requirements and evidence**. The sample includes 7 internships, 2 entry-level, 3 mid-level, and 14 senior examples. Recheck the employer page before applying; these are not verified openings today.
 
-Chrome checks verified descriptions and Apply controls for 23 postings. For three CoreWeave roles, the official employer ATS data was readable in Chrome while the public job page failed to display the description; those records identify this limit. Availability is a snapshot, and no applications were submitted.
+[Local findings](/local-findings) · [Role families](/title-map) · [Source ledger](/job-sources) · [Download data](/jobs.json)
 
-**Read the connection to AI:** *AI-specific* roles explicitly build, deploy, evaluate, govern, or secure AI. *AI-enabled work* uses AI in an established function or operates its supporting platform. *Adjacent pathway* roles provide relevant foundations without a guaranteed AI assignment. These are editorial labels, not standardized occupations.
+::: details What do the labels and checks mean?
+- **AI-specific:** builds, deploys, evaluates, governs, or secures AI.
+- **AI-enabled work:** applies AI in an established function or operates supporting systems.
+- **Adjacent pathway:** develops relevant foundations without a guaranteed AI assignment.
+- **Experience level:** based on employer requirements; inferred classifications are explained in the record.
 
-The two explicit entry-level examples are **MUFG's Global Red Team AI Engineer, Analyst** in Jersey City and **Provectus's Associate Forward Deployed Engineer** in New York. Internships have their own enrollment, graduation, travel, and prior-experience conditions. Remote or hybrid does not establish a New Jersey worksite.
-
-[Read the local findings](/local-findings) · [Decode the new titles](/title-map) · [Inspect the source ledger](/job-sources) · [Download the dataset](/jobs.json)
+Descriptions and Apply controls were visible for 23 postings. Three CoreWeave records used official ATS data because the public pages did not display job text; their application forms were not verified. No applications were submitted. See the [method](/methodology).
+:::
 
 <JobExplorer />
 

@@ -18,7 +18,7 @@ Research reviewed **November 5, 2026**. Numerical employment projections describ
 | Established occupation | BLS measures a broad occupation and projects employment over a stated decade. | A growth rate for an AI specialization within that occupation. |
 | Emerging title | Employer descriptions and professional frameworks show the work and skills associated with a title. | A comparable national employment count or a reliable title-specific growth rate. |
 
-The explorer applies the label **Established occupation** only when its role aligns with the cited BLS occupation. Emerging roles display **No separate forecast**. Similar work can have different titles across employers, and one title can cover very different responsibilities.
+The career profiles distinguish established occupations from emerging titles. Emerging titles have no separate forecast in this collection. Similar work can have different titles across employers, and one title can cover very different responsibilities.
 
 ## Source selection
 

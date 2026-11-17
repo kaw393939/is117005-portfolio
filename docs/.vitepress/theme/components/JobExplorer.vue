@@ -135,6 +135,8 @@ function resetFilters() {
       </dl>
 
       <p class="job-summary">{{ job.summary }}</p>
+      <details class="job-details">
+      <summary>Requirements and evidence</summary>
       <p class="job-requirements-label">Requirements to compare</p>
       <ul class="job-requirements">
         <li v-for="requirement in job.requirements" :key="requirement">{{ requirement }}</li>
@@ -154,11 +156,13 @@ function resetFilters() {
           <span v-if="job.jobId">Job ID: {{ job.jobId }}</span>
         </div>
       </footer>
+      </details>
     </article>
   </section>
 </template>
 
 <style scoped>
+.job-details summary { cursor: pointer; font-weight: 600; color: var(--vp-c-brand-1); padding: 10px 0; }
 .job-explorer {
   margin: 28px 0;
   color: var(--vp-c-text-1);
@@ -176,7 +180,7 @@ function resetFilters() {
   flex-direction: column;
   gap: 6px;
   min-width: 0;
-  font-size: 11px;
+  font-size: 14px;
   font-weight: 600;
   line-height: 1.5;
 }
@@ -192,7 +196,7 @@ function resetFilters() {
   border: 1px solid var(--vp-c-divider);
   border-radius: 4px;
   font: inherit;
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 400;
 }
 
@@ -209,7 +213,7 @@ function resetFilters() {
 .job-help {
   margin: 7px 0 18px;
   color: var(--vp-c-text-2);
-  font-size: 11px;
+  font-size: 14px;
   line-height: 1.7;
 }
 
@@ -231,13 +235,13 @@ function resetFilters() {
 .job-results-bar p {
   margin: 0;
   color: var(--vp-c-text-2);
-  font-size: 12px;
+  font-size: 14px;
 }
 
 .job-results-bar strong { color: var(--vp-c-text-1); }
 .job-explorer button {
   color: var(--vp-c-brand-1);
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 600;
   cursor: pointer;
 }
@@ -253,7 +257,7 @@ function resetFilters() {
 .job-employer {
   margin: 0 0 7px;
   color: var(--vp-c-brand-1);
-  font-size: 11px;
+  font-size: 14px;
   font-weight: 700;
   line-height: 1.6;
   letter-spacing: .4px;
@@ -261,7 +265,7 @@ function resetFilters() {
 
 .job-record h3 {
   margin: 0 0 13px;
-  font-family: 'Manrope', sans-serif;
+  font-family: var(--vp-font-family-base);
   font-size: 20px;
   font-weight: 650;
   line-height: 1.4;
@@ -281,7 +285,7 @@ function resetFilters() {
   background: var(--vp-c-bg-alt);
   border: 1px solid var(--vp-c-divider);
   border-radius: 3px;
-  font-size: 10px;
+  font-size: 13px;
   font-weight: 500;
   line-height: 1.6;
 }
@@ -294,17 +298,17 @@ function resetFilters() {
 }
 
 .job-tags .job-adjacent-tag { border-style: dashed; }
-.job-location { margin: 18px 0 15px; font-size: 12px; line-height: 1.75; }
+.job-location { margin: 18px 0 15px; font-size: 14px; line-height: 1.75; }
 .job-location > div { display: grid; grid-template-columns: 111px minmax(0, 1fr); gap: 9px; margin: 5px 0; }
 .job-location dt { color: var(--vp-c-text-2); }
 .job-location dd { margin: 0; }
 .job-summary { margin: 13px 0; font-size: 14px; line-height: 1.85; }
-.job-requirements-label { margin: 16px 0 6px; font-size: 11px; font-weight: 700; }
-.job-requirements { margin: 0; padding-left: 20px; color: var(--vp-c-text-2); font-size: 12px; line-height: 1.85; }
+.job-requirements-label { margin: 16px 0 6px; font-size: 14px; font-weight: 700; }
+.job-requirements { margin: 0; padding-left: 20px; color: var(--vp-c-text-2); font-size: 14px; line-height: 1.85; }
 .job-requirements li + li { margin-top: 4px; }
-.job-level-basis { margin: 15px 0 0; color: var(--vp-c-text-2); font-size: 11px; line-height: 1.8; }
+.job-level-basis { margin: 15px 0 0; color: var(--vp-c-text-2); font-size: 14px; line-height: 1.8; }
 .job-level-basis strong { color: var(--vp-c-text-1); font-weight: 600; }
-.job-evidence-note { margin: 12px 0 0; padding-left: 11px; border-left: 2px solid var(--vp-c-divider); color: var(--vp-c-text-2); font-size: 11px; line-height: 1.8; }
+.job-evidence-note { margin: 12px 0 0; padding-left: 11px; border-left: 2px solid var(--vp-c-divider); color: var(--vp-c-text-2); font-size: 14px; line-height: 1.8; }
 .job-evidence-note strong { color: var(--vp-c-text-1); font-weight: 600; }
 
 .job-record-footer {
@@ -318,15 +322,15 @@ function resetFilters() {
 
 .job-record-footer a {
   color: var(--vp-c-brand-1);
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 600;
   text-decoration: none;
-  white-space: nowrap;
+  white-space: normal;
 }
 .job-record-footer a:hover { text-decoration: underline; }
 .job-record-footer a > span[aria-hidden] { margin-left: 6px; }
 .job-source-links { display: flex; flex-direction: column; gap: 6px; }
-.job-verification { display: flex; flex-direction: column; gap: 2px; color: var(--vp-c-text-2); font-size: 10px; line-height: 1.7; overflow-wrap: anywhere; }
+.job-verification { display: flex; flex-direction: column; gap: 2px; color: var(--vp-c-text-2); font-size: 13px; line-height: 1.7; overflow-wrap: anywhere; }
 .job-empty { padding: 35px 15px; text-align: center; border-bottom: 1px solid var(--vp-c-divider); }
 .job-empty h3 { margin: 0 0 10px; font-size: 17px; }
 .job-empty p { color: var(--vp-c-text-2); font-size: 13px; line-height: 1.8; }
@@ -341,8 +345,8 @@ function resetFilters() {
   .job-selects { grid-template-columns: 1fr; }
   .job-record h3 { font-size: 19px; }
   .job-location > div { grid-template-columns: 1fr; gap: 1px; margin: 9px 0; }
-  .job-location dt { font-size: 10px; }
+  .job-location dt { font-size: 13px; }
   .job-record-footer { flex-direction: column; }
-  .job-verification { font-size: 10px; }
+  .job-verification { font-size: 13px; }
 }
 </style>

@@ -1,8 +1,14 @@
-# IS117005 · AI Career Field Guide
+# IS117005 · AI Career Research & Planning
 
-A VitePress research portfolio exploring emerging AI job titles and real opportunities in New York and New Jersey, alongside occupational growth evidence, skills, and career pathways.
+A document-first VitePress research notebook comparing emerging AI job titles and real opportunities in New York and New Jersey, alongside occupational growth evidence, skills, and career pathways.
 
 **[Visit the GitHub Pages site →](https://kaw393939.github.io/is117005-portfolio/)**
+
+## Information architecture
+
+Start → compare careers → plan next steps → check evidence. The homepage is an index, not a marketing hero.
+
+- **[Planning worksheet](https://kaw393939.github.io/is117005-portfolio/plan.html):** research questions, evidence comparisons, decisions, project planning, and peer review.
 
 ## Explore the research
 
@@ -14,7 +20,9 @@ A VitePress research portfolio exploring emerging AI job titles and real opportu
 - **Learning pathways:** practical options for exploring software, data, and trustworthy AI.
 - **Methodology & sources:** how evidence is selected and how emerging titles differ from measured occupations.
 
-The homepage includes a searchable career explorer with category filters. The job explorer records exact titles, employer links, responsibilities, requirements, location, level rationale, and check dates. VitePress also provides full-site local search, responsive navigation, and light and dark themes.
+The homepage is a concise research index. Job records keep requirements and source details in expandable sections. The job explorer records exact titles, employer links, responsibilities, requirements, location, level rationale, and check dates. VitePress also provides full-site local search, responsive navigation, and light and dark themes.
+
+Site structure revised November 17, 2026; source evidence was not re-verified as part of that redesign.
 
 Research reviewed November 5, 2026. Chrome displayed employer descriptions and Apply controls for 23 postings; 3 CoreWeave listings were reviewed through official employer ATS JSON because their public pages did not render job text. Availability is a dated observation. This selected sample does not measure regional vacancy totals or growth. Growth figures apply to the broad occupations and periods stated on the site; emerging titles do not inherit an occupation's forecast.
 
@@ -38,7 +46,7 @@ The production base path is `/is117005-portfolio/`. The preview server prints th
 
 ## Update the portfolio
 
-Edit the Markdown pages in `docs/`. Career explorer entries are in `docs/.vitepress/data/careers.ts`; keep them aligned with the career profiles and research table. Reviewed jobs are in `docs/.vitepress/data/jobs.json`; update the downloadable copy at `docs/public/jobs.json` and the source ledger at `docs/job-sources.md` together. Discovery notes and the original Atlas review are in `research/`. Site settings are in `docs/.vitepress/config.ts`, and the custom homepage and styles are in `docs/.vitepress/theme/`.
+Edit the Markdown pages in `docs/`. Career explorer entries are in `docs/.vitepress/data/careers.ts`; keep them aligned with the career profiles and research table. Reviewed jobs are in `docs/.vitepress/data/jobs.json`; update the downloadable copy at `docs/public/jobs.json` and the source ledger at `docs/job-sources.md` together. Discovery notes and the original Atlas review are in `research/`. Site settings are in `docs/.vitepress/config.ts`, and document styles are in `docs/.vitepress/theme/`.
 
 ## GitHub Pages deployment
 

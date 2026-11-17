@@ -1,8 +1,8 @@
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
-  title: 'AI Career Field Guide',
-  description: 'An IS117005 research portfolio exploring growing occupations, emerging AI job titles, and practical career pathways.',
+  title: 'AI Career Research',
+  description: 'A research and planning notebook for comparing AI careers, evidence, and next steps.',
   lang: 'en-US',
   base: '/is117005-portfolio/',
   cleanUrls: false,
@@ -14,41 +14,40 @@ export default defineConfig({
   sitemap: { hostname: 'https://kaw393939.github.io/is117005-portfolio/' },
   themeConfig: {
     logo: '/favicon.svg',
-    siteTitle: 'AI Career Field Guide',
+    siteTitle: 'AI Career Research',
     nav: [
-      { text: 'NY / NJ jobs', link: '/jobs' },
-      { text: 'Job titles', link: '/title-map' },
-      { text: 'Research', items: [
-        { text: 'Local findings', link: '/local-findings' },
-        { text: 'Growth & BLS evidence', link: '/research' },
-        { text: 'Learning from the existing Atlas', link: '/existing-research' },
-        { text: 'Methodology', link: '/methodology' }
-      ] },
-      { text: 'Learning paths', link: '/pathways' }
+      { text: 'Start here', link: '/' },
+      { text: 'Job sample', link: '/jobs' },
+      { text: 'Plan', link: '/plan' },
+      { text: 'Sources', link: '/sources' }
     ],
     sidebar: [
-      { text: 'NY / NJ EMPLOYER RESEARCH', items: [
-        { text: 'Real jobs · all experience levels', link: '/jobs' },
-        { text: 'What the local sample shows', link: '/local-findings' },
-        { text: 'Emerging AI title map', link: '/title-map' },
-        { text: 'Employer source ledger', link: '/job-sources' }
+      { text: 'Start', items: [
+        { text: 'Research overview', link: '/' },
+        { text: 'Planning worksheet', link: '/plan' }
       ] },
-      { text: 'THE FIELD GUIDE', items: [
+      { text: 'Compare careers', items: [
+        { text: 'NY/NJ job sample', link: '/jobs' },
+        { text: 'Role families', link: '/title-map' },
         { text: 'Career profiles', link: '/careers' },
-        { text: 'Growth & evidence', link: '/research' },
-        { text: 'Learning pathways', link: '/pathways' }
+        { text: 'Local findings', link: '/local-findings' },
+        { text: 'Employment projections', link: '/research' }
       ] },
-      { text: 'THE RESEARCH DESK', items: [
-        { text: 'Learning from the existing Atlas', link: '/existing-research' },
-        { text: 'Methodology', link: '/methodology' },
-        { text: 'Sources & references', link: '/sources' }
+      { text: 'Plan next steps', items: [
+        { text: 'Learning projects', link: '/pathways' }
+      ] },
+      { text: 'Check the evidence', collapsed: false, items: [
+        { text: 'Employer sources', link: '/job-sources' },
+        { text: 'Research sources', link: '/sources' },
+        { text: 'Method & limitations', link: '/methodology' },
+        { text: 'Earlier Atlas review', link: '/existing-research' }
       ] }
     ],
     socialLinks: [{ icon: 'github', link: 'https://github.com/kaw393939/is117005-portfolio' }],
     search: { provider: 'local' },
     outline: { level: [2, 3], label: 'On this page' },
     footer: {
-      message: 'IS117005 · A research portfolio on the changing world of work.',
+      message: 'IS117005 · Research, evidence, and planning.',
       copyright: 'Research reviewed November 5, 2026. Projections are estimates, not guarantees.'
     },
     editLink: {
