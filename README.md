@@ -6,7 +6,7 @@ A document-first VitePress research notebook comparing emerging AI job titles an
 
 ## Information architecture
 
-Start → compare careers → plan next steps → check evidence. The homepage is an index, not a marketing hero.
+Two routes: career research → next steps; portfolio brief → personas → evidence → backlog → delivery. The homepage is an index, not a marketing hero.
 
 - **[Planning worksheet](https://kaw393939.github.io/is117005-portfolio/plan.html):** research questions, evidence comparisons, decisions, project planning, and peer review.
 
@@ -53,3 +53,7 @@ Edit the Markdown pages in `docs/`. Career explorer entries are in `docs/.vitepr
 Pushing to `main` runs [the deployment workflow](.github/workflows/deploy.yml): install locked dependencies, build VitePress, verify internal links, and deploy the site to GitHub Pages. The repository's Pages publishing source is **GitHub Actions**. The workflow can also be started manually from the Actions tab.
 
 Primary research references are collected on the [sources page](docs/sources.md). Suggested projects are learning proposals, not claims of completed work or guaranteed employment outcomes.
+
+## Planning and AI coding context
+
+This repository is a research notebook, not the production consulting portfolio. Start with [AGENTS.md](AGENTS.md), then [the portfolio planning overview](docs/consulting-portfolio-plan.md). Brief, personas, evidence, backlog and delivery checks are separate documents for focused review. Career research remains dated evidence, not a list of guaranteed current vacancies.

@@ -3,9 +3,16 @@ title: Research & planning
 description: A working notebook for comparing AI careers, reviewing evidence, and planning next steps.
 ---
 
-# AI career research & planning
+# Research & planning notebook
 
-Use this notebook to answer three questions: **What work interests me? What does it require? What should I do next?** This is a research collection, not a marketing portfolio.
+Two connected workstreams, organized for review before coding. This is a research collection, not a marketing portfolio.
+
+| I want to… | Start with |
+| --- | --- |
+| Understand AI careers and possible next steps | [Career research](#start-here), then the [planning worksheet](/plan). |
+| Plan Keith’s consulting portfolio | [Planning overview](/consulting-portfolio-plan), then brief → personas → evidence → backlog → delivery. |
+
+**Keep the distinction:** job sources are dated observations; personas and service offers are hypotheses; backlog items are proposed work, not completed capabilities.
 
 ## Start here
 

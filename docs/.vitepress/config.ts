@@ -1,7 +1,7 @@
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
-  title: 'AI Career Research',
+  title: 'Research & Planning',
   description: 'A research and planning notebook for comparing AI careers, evidence, and next steps.',
   lang: 'en-US',
   base: '/is117005-portfolio/',
@@ -14,11 +14,11 @@ export default defineConfig({
   sitemap: { hostname: 'https://kaw393939.github.io/is117005-portfolio/' },
   themeConfig: {
     logo: '/favicon.svg',
-    siteTitle: 'AI Career Research',
+    siteTitle: 'Research & Planning',
     nav: [
       { text: 'Start here', link: '/' },
       { text: 'Job sample', link: '/jobs' },
-      { text: 'Plan', link: '/plan' },
+      { text: 'Portfolio plan', link: '/consulting-portfolio-plan' },
       { text: 'Sources', link: '/sources' }
     ],
     sidebar: [
@@ -34,8 +34,15 @@ export default defineConfig({
         { text: 'Employment projections', link: '/research' }
       ] },
       { text: 'Plan next steps', items: [
-        { text: 'Learning projects', link: '/pathways' },
-        { text: 'Consulting portfolio plan', link: '/consulting-portfolio-plan' }
+        { text: 'Learning projects', link: '/pathways' }
+      ] },
+      { text: 'Portfolio planning', items: [
+        { text: 'Start & decisions', link: '/consulting-portfolio-plan' },
+        { text: 'Brief & structure', link: '/portfolio-brief' },
+        { text: 'Employer personas', link: '/portfolio-personas' },
+        { text: 'Evidence & claims', link: '/portfolio-evidence' },
+        { text: 'Backlog & acceptance', link: '/portfolio-backlog' },
+        { text: 'Delivery & quality', link: '/portfolio-delivery' }
       ] },
       { text: 'Check the evidence', collapsed: false, items: [
         { text: 'Employer sources', link: '/job-sources' },
